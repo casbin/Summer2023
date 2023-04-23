@@ -172,11 +172,11 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/php-casbin/php-casbin
    - https://github.com/php-casbin
 
-### SwiftCasbin 开发（Swift）或Casdoor单点登录系统大前端支持
+### 增强Casdoor单点登录系统大前端的功能
 
-1. 项目名称：SwiftCasbin 开发（Swift）SwiftCasbin 开发（Swift)或Casdoor单点登录系统大前端支持。
+1. 项目名称：增强Casdoor单点登录系统大前端的功能。
 2. 项目主导师：[孟祥文 (xiaobeiswift)](https://github.com/xiaobeiswift) cit117 (AT) me.com
-3. 项目描述：开发Swift版本的Casbin，支持iOS App、Swift服务器端应用等生态。Casdoor单点登录系统大前端应用 ios、安卓、flutter、uinapp、小程序等sdk的开发
+3. 项目描述：Casdoor单点登录系统大前端应用 ios、安卓、flutter、uinapp、小程序等sdk的开发，功能的增强，对微信等第三方登录的移动端方式的支持.
 4. 项目难度：进阶
 5. 涉及技术领域标签：Authorization,SDK,Casdoor,App
 6. 编程语言标签：swift,dart,java,kotlin,js
@@ -185,6 +185,8 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - 实现纯数据库驱动的 adapter: PostgresQL, Mysql, Microsoft SQL Server, Oracle, SQLite, IBM Db2.
    - 解决 SwiftCasbin 主仓库&相关仓库中的 issues：https://github.com/casbin/SwiftCasbin/issues
    - 设计前端友好的casdoor api,完成安卓，ios，flutter，uniapp，小程序的sdk
+   - 对于微信、微博等第三方登录的移动端方式的改进和支持。
+   - web方式已经可以使用，加强对于原生UI组件的构建与支持，为用户构建更丰富的，更多样化，更可定制化的界面。
    - 每个sdk演示app的开发及文档完善。
 8. 项目技术要求：
    - 熟悉 Swift/Dart/Java/Kotlin/js 语言的一种
