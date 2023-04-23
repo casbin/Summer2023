@@ -178,7 +178,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 2. 项目主导师：[孟祥文 (xiaobeiswift)](https://github.com/xiaobeiswift) cit117 (AT) me.com
 3. 项目描述：Casdoor单点登录系统大前端应用 ios、安卓、flutter、uinapp、小程序等sdk的开发，功能的增强，对微信等第三方登录的移动端方式的支持.
 4. 项目难度：进阶
-5. 涉及技术领域标签：Authorization,SDK,Casdoor,App
+5. 涉及技术领域标签：Authorization,SDK,Casdoor
 6. 编程语言标签：swift,dart,java,kotlin,js
 7. 项目产出要求：
    - 设计前端友好的casdoor api,完成安卓，ios，flutter，uniapp，小程序的sdk
