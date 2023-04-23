@@ -181,9 +181,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 5. 涉及技术领域标签：Authorization,SDK,Casdoor,App
 6. 编程语言标签：swift,dart,java,kotlin,js
 7. 项目产出要求：
-   - 实现 Casbin 的 Swift 版本
-   - 实现纯数据库驱动的 adapter: PostgresQL, Mysql, Microsoft SQL Server, Oracle, SQLite, IBM Db2.
-   - 解决 SwiftCasbin 主仓库&相关仓库中的 issues：https://github.com/casbin/SwiftCasbin/issues
    - 设计前端友好的casdoor api,完成安卓，ios，flutter，uniapp，小程序的sdk
    - 对于微信、微博等第三方登录的移动端方式的改进和支持。
    - web方式已经可以使用，加强对于原生UI组件的构建与支持，为用户构建更丰富的，更多样化，更可定制化的界面。
@@ -194,8 +191,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - 了解Oauth2流程
    - 熟悉 Git、GitHub 相关操作
 9. 项目成果仓库：
-   - https://github.com/casbin/SwiftCasbin
-   - https://github.com/SwiftCasbin
    - https://github.com/casdoor/casdoor-ios-sdk
    - https://github.com/casdoor/casdoor-android-sdk
    - https://github.com/casdoor/casdoor-dart-sdk
