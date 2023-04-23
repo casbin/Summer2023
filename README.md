@@ -54,6 +54,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 - [Casbin核心权限库改进（Go + Java）](#casbin核心权限库改进go--java)
 - [Casbin核心权限库改进（Go + .NET）](#casbin核心权限库改进go--net)
 - [Casbin/Casdoor 文档优化](#casbincasdoor-文档优化)
+- [加速 Node-Casbin、Casbin.js 在 Web 和 Node.js 平台上的插件生态建设](#加速-node-casbincasbinjs-在-web-和-nodejs-平台上的插件生态建设)
 - [Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）](#casdoor单点登录系统casnode社区系统前端react--js后端go)
 - [Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）](#pythonphp-casbin-在分布式系统和主流框架下的应用扩展开发pythonphp)
 - [SwiftCasbin 开发（Swift)或Casdoor单点登录系统大前端支持](#swiftcasbin-开发swift或casdoor单点登录系统大前端支持)
@@ -100,7 +101,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/Casbin.NET
 
 ### Casbin/Casdoor 文档优化
-
 1. 项目标题：Casbin/Casdoor 文档优化
 2. 项目主导师：[刘子轩 (nodece)](https://github.com/nodece), nodeces (AT) gmail.com
 3. 项目描述：Casbin和Casdoor是Casbin社区的出色项目，他们的官网和文档都是使用[Docusaurus](https://docusaurus.io/)框架进行搭建，文档翻译是使用[CrowdIn](https://crowdin.com/)在线翻译平台进行众包翻译，随着项目的不断发展，文档与代码会存在一定的落差。文档是软件的重要组成部分，改进文档提升用户体验是不可或缺的部分。
@@ -121,6 +121,28 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 项目成果仓库：
    - https://github.com/casbin/casbin-website
    - https://github.com/casdoor/casdoor-website
+
+### 加速 Node-Casbin、Casbin.js 在 Web 和 Node.js 平台上的插件生态建设
+1. 项目标题：加速 Node-Casbin、Casbin.js 在 Web 和 Node.js 平台上的插件生态建设
+2. 项目主导师：[刘子轩 (nodece)](https://github.com/nodece)，nodeces (AT) gmail.com
+3. 项目描述：Node-Casbin 和 Casbin.js 采用独特的 PERM 模型语法（model）来实现强大、灵活的访问控制，能够在 Web、Node.js、Electron 等 JavaScript 平台上轻松运行。我们希望加速 Node-Casbin 和 Casbin.js 在 Web 和 Node.js 平台上的插件生态系统的快速发展，为开发者提供一系列丰富的 Adapter、Watcher 和 Starter 插件，实现便捷的开箱即用体验。我们计划以 Web 平台为核心，为 Angular、React、Vue 主流框架提供 Starter 插件，帮助开发者快速在项目中使用 Node-Casbin 和 Casbin.js，同时继续维护并优化现有 Node.js 平台的 Adapter、Watcher 和 Starter 插件，全面加速 Node-Casbin 和 Casbin.js 生态建设。
+4. 项目难度：进阶
+5. 涉及技术领域标签：Authorization
+6. 编程语言标签：JavaScript, TypeScript, Angular, React, Vue, Node.js, SQL
+7. 项目产出要求：
+   - 为 Angular、React、Vue 框架提供 Starter 插件，以帮助用户快速使用 Node-Casbin
+   - 解决 Node-Casbin 主仓库的 issues：https://github.com/casbin/node-casbin/issues
+   - 解决 Casbin.js 主仓库的 issues：https://github.com/casbin/casbin.js/issues
+   - 对现有的 Adapter、Watcher 和 Starter 插件进行维护，并提供插件使用文档和插件索引文档，方便用户快速查看和使用插件
+8. 项目技术要求：
+   - 熟练使用 JavaScript、TypeScript、SQL 语言
+   - 掌握 Angular, React, Vue 插件开发
+   - 了解 Casbin 的工作原理
+   - 了解 Git、GitHub 相关操作
+   - 有能力撰写技术文章
+9. 项目成果仓库：
+   - https://github.com/casbin/node-casbin
+   - https://github.com/casbin/casbin.js
 
 ### Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）
 
