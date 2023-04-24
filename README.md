@@ -177,14 +177,14 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 5. 涉及技术领域标签：Authorization、API
 6. 编程语言标签：Python，PHP，Go
 7. 项目产出要求：
-   - 对分布式存储系统`ETCD`的适配`etcd-adapter`
-   - 完善Py/PHP-Casbin的对Redis（`redis-adapter`）适配器
-   - 对权限决策`enforce()`的过程做基准测试、弱点分析、性能优化
-   - 增加`addPermissionsForUser()` API.
-   - 增加对`g`方法的缓存, 参考: https://github.com/casbin/casbin/blob/master/util/builtin_operators.go#L333.
-   - 实现和完善[WatcherEx](https://casbin.org/docs/en/watchers#watcherex)
+   - 实现在分布式系统中使用`RabbitMQ`做策略同步的监视器`rabbitmq-watcher`
+   - 对现有`Watcher`实现和完善[WatcherEx](https://casbin.org/docs/en/watchers#watcherex)接口
+   - 实现内存型（`string-adapter`）适配器
+   - 完善`Logger`接口
+   - 实现Graphql中间件，为Graphql提供鉴权中间件   
+   - 对权限决策`enforce()`的过程做基准测试、弱点分析、性能优化   
    - 引入Casbin核心引擎[Casbin Core Engine (Golang)](https://github.com/casbin/casbin/releases)中的新功能
-   - 对主流框架的支持增强，例如：如果在Python的`Django`的扩展中, 需要引入Django的`Middleware`, `Caching`, `Logging`, 集成`Django`的认证系统（authentication system）；而PHP主流框架Laravel中已有[Laravel-Authz](https://github.com/php-casbin/laravel-authz)，但需要引入Laravel的[Gates](https://laravel.com/docs/9.x/authorization#gates)等
+   - 对主流框架的支持增强，例如：如果在Python的`Django`的扩展中, 需要引入Django的 `Caching`, 集成`Django`的认证系统（[Permissions and Authorization](https://docs.djangoproject.com/en/4.2/topics/auth/default/#topic-authorization)）；而PHP主流框架Laravel中已有[Laravel-Authz](https://github.com/php-casbin/laravel-authz)，但需要和Laravel的[Gates](https://laravel.com/docs/10.x/authorization#gates)结合
    - 解决[PyCasbin](https://github.com/casbin/pycasbin)或[PHP-Casbin](https://github.com/php-casbin/php-casbin)主库以及相关仓库中的issues
 8. 项目技术要求：
    - 熟悉Python、PHP任意一种语言即可
