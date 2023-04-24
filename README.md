@@ -58,6 +58,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 - [Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）](#casdoor单点登录系统casnode社区系统前端react--js后端go)
 - [Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）](#pythonphp-casbin-在分布式系统和主流框架下的应用扩展开发pythonphp)
 - [SwiftCasbin 开发（Swift)或Casdoor单点登录系统大前端支持](#swiftcasbin-开发swift或casdoor单点登录系统大前端支持)
+- [Casdoor协议相关功能支持](#Casdoor协议相关功能支持)
 
 ### Casbin核心权限库改进（Go + Java）
 1. 项目名称：Casbin（Go + Java）
@@ -219,6 +220,29 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casdoor/casdoor-ios-sdk
    - https://github.com/casdoor/casdoor-android-sdk
    - https://github.com/casdoor/casdoor-dart-sdk
+
+### Casdoor协议相关功能支持
+
+1. 项目名称：Casdoor协议相关功能支持（前端React + JS，后端Go）
+2. 项目主导师：[于耀东 (Yaodong Yu)](https://github.com/leo220yuyaodog), magicwindyyd (AT) gmail.com
+3. 项目描述：Casdoor 是一个基于 OAuth 2.0、OIDC、SAML 和 CAS 的 UI-first 身份和访问管理(IAM)/单点登录(SSO)平台。目前，Casdoor 已经基本实现了这些协议的单点登录功能。本项目旨在优化和完善 Casdoor 的协议相关功能支持，例如实现 OIDC、SAML 的单点登出功能，支持更多第三方应用登录（如企业微信 Wecom），从而进一步提高 Casdoor 的易用性和可用性。
+4. 项目难度：进阶
+5. 涉及技术领域标签：Micro Service, Authorization
+6. 编程语言标签：Go, JavaScript
+7. 项目产出要求：
+   - 支持 SAML 协议的单点登出功能。主仓库 issue：[casdoor#1281](https://github.com/casdoor/casdoor/issues/1281)
+   - 实现 OIDC 协议的 [Front-Channel Logout](https://openid.net/specs/openid-connect-frontchannel-1_0.html) 和 [Back-Channel Logout](https://openid.net/specs/openid-connect-backchannel-1_0.html)，完善单点登出功能。
+   - 对应用的 session 管理界面和 API 进行优化，以更好支持单点登出功能，比如用户自己可以指定删除自己在某个设备的 session, 是自己在指定设备的应用下线。
+   - 支持企业微信（Wecom）手动授权登录。主仓库 issue：[casdoor#1779](https://github.com/casdoor/casdoor/issues/1779)
+   - 实现 Casdoor 前端自定义配置 LDAP 服务器的用户字段与 Casdoor 用户字段映射，以便更好地支持不同的 LDAP 服务器（如 Active Directory 等）。主仓库 issue：[casdoor#1740](https://github.com/casdoor/casdoor/issues/1740)。
+   - 解决 Casdoor 单点登录协议功能相关[issues](https://github.com/casdoor/casdoor/issues)
+8. 项目技术要求：
+   - 熟悉OAuth 2.0, OIDC, SAML, CAS单点登录协议
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 项目成果仓库：
+   - https://github.com/casdoor/casdoor
 
 所有可选项目详见：https://github.com/casbin/Summer2022#可选项目列表
 
