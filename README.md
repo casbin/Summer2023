@@ -145,6 +145,26 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/node-casbin
    - https://github.com/casbin/casbin.js
 
+### Casbin-RS生态完善及Casdoor-Rust-SDK对接开发
+
+1. 项目名称：Casbin-RS生态完善及Casdoor-Rust-SDK对接开发
+2. 项目主导师：[刘毅涵 (qianxi0410)](https://github.com/qianxi0410), 894871277 (AT) qq.com
+3. 项目描述：Casbin-RS 是 Casbin 在 Rust 语言中的实现，目前还需要对其生态进行完善，以及开发 Casdoor-Rust-SDK 以便更好地支持 Rust 生态。本项目将关注于 Casbin-RS 生态的完善，包括与主流 Rust Web 框架的集成，解决现有issue，以及实现 Casdoor-Rust-SDK与Rust知名开源项目的对接。
+4. 项目难度：基础
+5. 涉及技术领域标签：Authorization, Authentication, Rust
+6. 编程语言标签：Rust
+7. 项目产出要求：
+   - 对主流 Rust Web 框架实现 Casbin-RS 中间件，包括正确、充足的单元/集成测试、完备的文档说明，以及实际应用示例
+   - 参照Casdoor-Go-SDK的功能，完善Casdoor-Rust-SDK，实现与 Casdoor 的无缝对接，包括认证、授权、用户管理等功能
+   - 将 Casdoor-Rust-SDK与知名的Rust开源项目进行对接，并撰写对应的对接文档
+   - 解决Casbin Rust主仓库和相关仓库中的issues ：https://github.com/casbin/casbin-rs/issues
+8. 项目技术要求：
+   - 熟悉Rust语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casdoor/casdoor-rust-sdk
+   - https://github.com/casbin/casbin-rs
+
 ### Casdoor单点登录系统管理平面、权限相关功能支持
 
 1. 项目名称：Casdoor单点登录系统管理平台、权限相关功能支持
