@@ -232,7 +232,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 支持 SAML 协议的单点登出功能。主仓库 issue：[casdoor#1281](https://github.com/casdoor/casdoor/issues/1281)
    - 实现 OIDC 协议的 [Front-Channel Logout](https://openid.net/specs/openid-connect-frontchannel-1_0.html) 和 [Back-Channel Logout](https://openid.net/specs/openid-connect-backchannel-1_0.html)，完善单点登出功能。
-   - 对应用的 session 管理界面和 API 进行优化，以更好支持单点登出功能，比如用户自己可以指定删除自己在某个设备的 session, 是自己在指定设备的应用下线。
+   - 对应用的 session 管理界面和 API 进行优化，以更好支持单点登出功能，比如用户自己可以指定删除自己在某个设备的 session, 使用户自己在已登录的应用在指定设备下线。
    - 支持企业微信（Wecom）手动授权登录。主仓库 issue：[casdoor#1779](https://github.com/casdoor/casdoor/issues/1779)
    - 实现 Casdoor 前端自定义配置 LDAP 服务器的用户字段与 Casdoor 用户字段映射，以便更好地支持不同的 LDAP 服务器（如 Active Directory 等）。主仓库 issue：[casdoor#1740](https://github.com/casdoor/casdoor/issues/1740)。
    - 解决 Casdoor 单点登录协议功能相关[issues](https://github.com/casdoor/casdoor/issues)
