@@ -145,28 +145,26 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/node-casbin
    - https://github.com/casbin/casbin.js
 
-### Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）
+### Casdoor单点登录系统管理平面、权限相关功能支持
 
-1. 项目名称：Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）
-2. 项目主导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz), hsluoyz (AT) gmail.com
-3. 项目描述：Casdoor是一套基于基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。Casdoor具有Web管理界面，可以用来管理用户、角色、权限（基于Casbin）。Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：casnode（https://github.com/casbin/casnode ）。该论坛开源，因此也欢迎其他开源社区使用。
-4. 项目难度：进阶
+1. 项目名称：Casdoor单点登录系统管理平台、权限相关功能支持
+2. 项目主导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz), hsluoyz (AT) qq.com
+3. 项目描述：Casdoor是一套基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。Casdoor具有Web管理界面，可以用来管理用户、角色、权限（基于Casbin）。本项目将关注Casdoor的管理控制平面、多组织和权限相关功能，提高其可扩展性和灵活性，满足不同组织和业务场景的需求。
+4. 项目难度：基础
 5. 涉及技术领域标签：Micro Service
 6. 编程语言标签：Go, JavaScript
 7. 项目产出要求：
-   - 扩展架构，添加更多的第三方登录支持
+   - 完善Casdoor的管理控制平面功能，实现灵活的配置管理
    - 优化、美化Web界面
-   - 支持Casbin权限管理
-   - 继续维护该项目，添加features，解决bugs，完善其邮件列表功能
+   - 实现多组织（多租户）功能，支持不同组织的独立管理和资源隔离
+   - 结合Casbin，实现基于角色的访问控制（RBAC）功能，提供灵活的权限管理
    - 解决Casdoor主仓库&相关仓库中的issues：https://github.com/casbin/casdoor/issues
-   - 解决Casnode&相关仓库中的issues：https://github.com/casbin/casnode/issues
 8. 项目技术要求：
    - 熟悉React、Javascript语言（前端）
    - 熟悉Golang语言（后端）
    - 熟悉Git、GitHub相关操作
 9. 项目成果仓库：
    - https://github.com/casdoor/casdoor
-   - https://github.com/casbin/casnode
 
 ### Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）
 
