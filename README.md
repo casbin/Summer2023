@@ -81,7 +81,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin
    - https://github.com/casbin/jcasbin
 
-
 ### Casbin核心权限库改进（Go + .NET）
 1. 项目名称：Casbin（Go + .NET）
 2. 项目主导师：[汤贤赫 (Sagilio)](https://github.com/sagilio), sagilio (AT) outlook.com
@@ -92,8 +91,9 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
    - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
-   - 跟踪Casbin-Go最新特性与BUG修复，并同步到Casbin.NET，如重构的RoleManager:[Casbin.NET#250](https://github.com/casbin/Casbin.NET/issues/250)
-   - 完善Casbin.NET的特有生态, 1) 完善现有的aspnetcore中间件：https://github.com/casbin-net/casbin-aspnetcore; 2) 完善Casdoor.SDK的.NET版本: https://github.com/casdoor/casdoor-dotnet-sdk
+   - 跟踪Casbin-Go最新关键特性与BUG修复，并移植到Casbin.NET
+   - 维护已有项目[Casbin.AspNetCore](https://github.com/casbin-net/casbin-aspnetcore), 提供更加丰富友好的示例
+   - 尝试为GUI场景（如WinUI/Maui/WPF等）接入Casbin提供友好地支持 [Casbin.Native](https://github.com/casbin-net/casbin-native)
    - 解决Casbin-Go和Casbin.NET以及相关仓库中的issues：[Casbin-Go](https://github.com/casbin/casbin/issues) & [Casbin.NET](https://github.com/casbin/Casbin.NET/issues)
 8. 项目技术要求：
    - 熟悉Golang或C#语言
@@ -101,6 +101,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 项目成果仓库：
    - https://github.com/casbin/casbin
    - https://github.com/casbin/Casbin.NET
+   - https://github.com/casbin-net/casbin-native
 
 ### Casbin/Casdoor 文档优化
 1. 项目标题：Casbin/Casdoor 文档优化
