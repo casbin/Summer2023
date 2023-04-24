@@ -59,6 +59,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 - [Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）](#pythonphp-casbin-在分布式系统和主流框架下的应用扩展开发pythonphp)
 - [SwiftCasbin 开发（Swift)或Casdoor单点登录系统大前端支持](#swiftcasbin-开发swift或casdoor单点登录系统大前端支持)
 - [Casdoor协议相关功能支持](#Casdoor协议相关功能支持)
+- [Casdoor 与其他开源软件相关对接支持](#Casdoor与其他开源软件相关对接支持)
 
 ### Casbin核心权限库改进（Go + Java）
 1. 项目名称：Casbin（Go + Java）
@@ -103,22 +104,21 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ### Casbin/Casdoor 文档优化
 1. 项目标题：Casbin/Casdoor 文档优化
-2. 项目主导师：[刘子轩 (nodece)](https://github.com/nodece), nodeces (AT) gmail.com
-3. 项目描述：Casbin和Casdoor是Casbin社区的出色项目，他们的官网和文档都是使用[Docusaurus](https://docusaurus.io/)框架进行搭建，文档翻译是使用[CrowdIn](https://crowdin.com/)在线翻译平台进行众包翻译，随着项目的不断发展，文档与代码会存在一定的落差。文档是软件的重要组成部分，改进文档提升用户体验是不可或缺的部分。
+2. 项目主导师：[Mikey (dirname)](https://github.com/dirname), openresty (AT) hotmail.com
+3. 项目描述：Casbin/Casdoor 是 Casbin 社区的出色项目，工欲善其事必先利其器，文档作为开发者快速了解、使用项目的重要工具，它提供了关于软件系统结构、功能、API接口等方面的详细信息。但随着项目的发展壮大以及社区贡献者源源不断地加入，文档与当前项目版本可能存在一定差异，为了提升用户体验并确保文档的准确性，结合当下先进技术同步和跟进文档已成为项目不可或缺的重要工作之一。
 4. 项目难度：基础
 5. 涉及技术领域标签：Authorization, Authentication
 6. 编程语言标签：JavaScript, Golang
 7. 项目产出要求：
-   - 同步Casbin以支持的语言的management API和rabc API到Casbin文档中的API模块
-   - 改进Casdoor文档整体体验，梳理Casdoor各个功能，对文档内容和布局进行优化
-   - 对Casbin文档进行英译汉，当前进度86%，目标进度100%
-   - 对Casdoor文档进行英译汉，当前进度80%，目标进度100%
-   - （有时）撰写、编辑Casbin社区推广（如Casbin官方微信公众号）文章
+   - 对现有的文档进行维护和优化，确保文档示例有效
+   - 改进 Casdoor 文档整体体验，梳理 Casdoor 各个功能，对文档内容和布局进行优化
+   - 引入 chatGPT 对文档进行自动化翻译
+   - （有时）撰写、编辑 Casbin 社区推广（如 Casbin 官方微信公众号）文章
 8. 项目技术要求：
    - 热爱并有能力撰写技术博客、文章
-   - 了解Git、GitHub相关操作
-   - 了解Casbin的工作原理
-   - 了解Casdoor的工作原理
+   - 了解 Git、GitHub 相关操作
+   - 了解 Casbin 的工作原理
+   - 了解 Casdoor 的工作原理
 9. 项目成果仓库：
    - https://github.com/casbin/casbin-website
    - https://github.com/casdoor/casdoor-website
@@ -243,6 +243,29 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - 熟悉Git、GitHub相关操作
 9. 项目成果仓库：
    - https://github.com/casdoor/casdoor
+
+### Casdoor与其他开源软件相关对接支持
+
+1. 项目名称：Casdoor与其他开源软件相关对接支持
+2. 项目主导师：[陈柄畅 (abingcbc)](https://github.com/abingcbc), 19990626.love@163.com
+3. 项目描述：Casdoor是一套基于基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。目前，有大量的其他开源软件存在着使用 OAuth2.0/OIDC 或 SSO 的需求。因此，本项目的任务是开发 Casdoor 相关的插件，SDK等形式，同时对 Casdoor 系统本身进行开发，增加新的功能，从而为其他开源软件提供更加便捷的 OAuth 2.0/OIDC 和单点登录的方案。
+4. 项目难度：进阶
+5. 涉及技术领域标签：Authorization
+6. 编程语言标签：Go, Java, JavaScript, Python, Lua, PHP, Ruby, Haskell
+7. 项目产出要求：
+   - 开发插件、SDK等，支持更多的开源软件集成 Casdoor
+   - 开发 Casdoor 主仓库，为系统开发更多的功能，以满足其他开源软件的需求
+   - 解决 Casdoor 主仓库中的与第三方集成相关的 issue：https://github.com/casdoor/casdoor/issues?q=is%3Aissue+is%3Aopen+authentication+with+casdoor
+   - 对现有的插件和SDK仓库进行维护，并提供插件使用文档和插件索引文档，方便用户快速查看和使用插件
+8. 项目技术要求：
+   - 熟悉 Go 语言（加分项：熟悉Java、JavaScript等其他语言）
+   - 熟悉Git、GitHub相关操作
+   - 了解并使用过开源社区中其他开源软件
+9. 项目成果仓库：
+   - https://github.com/casdoor/casdoor
+   - https://github.com/jenkinsci/casdoor-auth-plugin
+   - https://github.com/casdoor/casdoor-operator
+   - https://github.com/casdoor/casdoor-spring-security-example
 
 所有可选项目详见：https://github.com/casbin/Summer2022#可选项目列表
 
