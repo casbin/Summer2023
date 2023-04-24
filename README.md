@@ -102,22 +102,21 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ### Casbin/Casdoor 文档优化
 1. 项目标题：Casbin/Casdoor 文档优化
-2. 项目主导师：[刘子轩 (nodece)](https://github.com/nodece), nodeces (AT) gmail.com
-3. 项目描述：Casbin和Casdoor是Casbin社区的出色项目，他们的官网和文档都是使用[Docusaurus](https://docusaurus.io/)框架进行搭建，文档翻译是使用[CrowdIn](https://crowdin.com/)在线翻译平台进行众包翻译，随着项目的不断发展，文档与代码会存在一定的落差。文档是软件的重要组成部分，改进文档提升用户体验是不可或缺的部分。
+2. 项目主导师：[Mikey (dirname)](https://github.com/dirname), openresty (AT) hotmail.com
+3. 项目描述：Casbin/Casdoor 是 Casbin 社区的出色项目，工欲善其事必先利其器，文档作为开发者快速了解、使用项目的重要工具，它提供了关于软件系统结构、功能、API接口等方面的详细信息。但随着项目的发展壮大以及社区贡献者源源不断地加入，文档与当前项目版本可能存在一定差异，为了提升用户体验并确保文档的准确性，结合当下先进技术同步和跟进文档已成为项目不可或缺的重要工作之一。
 4. 项目难度：基础
 5. 涉及技术领域标签：Authorization, Authentication
 6. 编程语言标签：JavaScript, Golang
 7. 项目产出要求：
-   - 同步Casbin以支持的语言的management API和rabc API到Casbin文档中的API模块
-   - 改进Casdoor文档整体体验，梳理Casdoor各个功能，对文档内容和布局进行优化
-   - 对Casbin文档进行英译汉，当前进度86%，目标进度100%
-   - 对Casdoor文档进行英译汉，当前进度80%，目标进度100%
-   - （有时）撰写、编辑Casbin社区推广（如Casbin官方微信公众号）文章
+   - 对现有的文档进行维护和优化，确保文档示例有效
+   - 改进 Casdoor 文档整体体验，梳理 Casdoor 各个功能，对文档内容和布局进行优化
+   - 引入 chatGPT 对文档进行自动化翻译
+   - （有时）撰写、编辑 Casbin 社区推广（如 Casbin 官方微信公众号）文章
 8. 项目技术要求：
    - 热爱并有能力撰写技术博客、文章
-   - 了解Git、GitHub相关操作
-   - 了解Casbin的工作原理
-   - 了解Casdoor的工作原理
+   - 了解 Git、GitHub 相关操作
+   - 了解 Casbin 的工作原理
+   - 了解 Casdoor 的工作原理
 9. 项目成果仓库：
    - https://github.com/casbin/casbin-website
    - https://github.com/casdoor/casdoor-website
