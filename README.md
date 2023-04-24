@@ -71,8 +71,8 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
    - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
-   - 跟踪Casbin-Go最新特性并移植到jCasbin，如实现WatcherEx:[casbin#943](https://github.com/casbin/casbin/issues/943)
-   - 维护完善jCasbin的Java特有生态，如实现Play框架中间件：[jcasbin#104](https://github.com/casbin/jcasbin/issues/104)
+   - 跟踪Casbin-Go最新特性并移植到jCasbin
+   - 维护完善jCasbin的周边生态，如开发jCasbin的各类插件，便于与其他软件集成：[Integrate jCasbin into Sa-Token](https://github.com/casbin/jcasbin/issues/335)
    - 解决Casbin-Go和jCasbin以及相关仓库中的issues：[Casbin-Go](https://github.com/casbin/casbin/issues) & [jCasbin](https://github.com/casbin/jcasbin/issues)
 8. 项目技术要求：
    - 熟悉Golang或Java语言
